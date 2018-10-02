@@ -1,11 +1,42 @@
 body {
   text-align: center;
+  font-family: garamond;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 18px;
 }
 li {
   list-style-type: none;
 }
-#container {
+.container {
+  justify-content: space-around;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlGAq_Njm6jSwg22-4fGrzsFQu1KBvD08CgOZoSyWkJbq6wDmtBg");
 }
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-variant: normal;
+  color :brown;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-variant: normal;
+  color : orange;
+}
+
+/* #demoFont {
+font-family: Georgia, serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+} */
