@@ -1,7 +1,27 @@
-#info {
+/*#info {
   text-align: left;
-  font-size: 25px;
+  font-size: 15px;
   font-style: oblique;
-  font-family: monospace;
+  font-family: serif;
   color: yellow;
+}*/
+body{
+  color: indigo;
+  background-color: lightyellow;
+  text-align: justify;
+}
+.container{
+
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  text-overflow: clip;
+  font-weight: bolder;
+  font-style: oblique;
+
+}
+.bg-warning{
+  border-radius: 6px 12px 8px 3px;
+  color: indigo;
 }
