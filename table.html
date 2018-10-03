@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Goods Update</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+  </head>
+  <body>
+    <div id="img">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhPnWt5gRFpRcQEwMLtmu2ZX5U7eOmEQvY5BaC8NNpAGtMFs9avA">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhPnWt5gRFpRcQEwMLtmu2ZX5U7eOmEQvY5BaC8NNpAGtMFs9avA">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhPnWt5gRFpRcQEwMLtmu2ZX5U7eOmEQvY5BaC8NNpAGtMFs9avA">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhPnWt5gRFpRcQEwMLtmu2ZX5U7eOmEQvY5BaC8NNpAGtMFs9avA">
+  </div>
+    <table id="products" >
+      <tr id="tablehead">
+        <th> PRODUCT NAME </th>
+        <th> QUANTITY AVAILABLE IN STOCK </th>
+        <th> AMOUNT SOLD</th>
+        <th id="notice"> NOTICES</th>
+      </tr>
+
+      <tr id="1">
+        <td>
+          <button type="button" contenteditable="true" id="bread" onclick="bread();" >Bread</button>
+          <button type="button" id="delete1" onclick="deleteRow(this)"><span id="delete">x</span></button>
+      <!-- <input type="button" value="Delete" onclick="deleteRow(this)"> -->
+        </td>
+        <td>
+          <input type="number" contenteditable="true" id="bread_amount">
+        </td>
+        <td>
+          <input type="number" contenteditable="true" id="bread_sold">
+        </td>
+        <td>
+          <label for="update1" id="update_bread_stock"></label>
+        </td>
+
+      </tr>
+
+
+      <tr>
+        <td id="2">
+          <button type="button" contenteditable="true" id="unga" onclick="unga();">Unga</button>
+          <button type="button" id="delete2"  onclick="deleteRow(this)"><span id="delete">x</span></button>
+        </td>
+        <td>
+          <input type="number" contenteditable="true" id="unga_amount">
+        </td>
+        <td>
+          <input type="number" contenteditable="true" id="unga_sold">
+        </td>
+        <td>
+          <label for="update2" id="update_unga_stock"></label>
+        </td>
+      </tr>
+
+      <tr id="3">
+        <td>
+          <button type="button" contenteditable="true"  id="soda" onclick="soda();"> Soda</button>
+          <button type="button" id="delete3"  onclick="deleteRow(this)"><span id="delete">x</span></button>
+        </td>
+        <td>
+          <input type="number" contenteditable="true" id="soda_amount">
+        </td>
+        <td>
+          <input type="number" contenteditable="true" id="soda_sold">
+        </td>
+        <td>
+          <label for="update3" id="update_soda_stock"></label>
+        </td>
+      </tr1>
+    </table>
+
+    <br>
+    <button id="more_items" value="Add More Goods" onclick="addMoreItems();" >Add More Goods</button>
+
+
+
+  <script src="js/jquery-3.3.1.js" ></script>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
