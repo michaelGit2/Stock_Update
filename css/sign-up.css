@@ -1,10 +1,4 @@
-/*#info {
-  text-align: left;
-  font-size: 15px;
-  font-style: oblique;
-  font-family: serif;
-  color: yellow;
-}*/
+
 body{
   color: indigo;
   background-color: lightyellow;
@@ -25,3 +19,36 @@ h1{
   border-radius: 6px 12px 8px 3px;
   color: indigo;
 }
+#navigate > ul{
+   list-style-type:none;
+   position:fixed;
+   margin:0; padding:0;
+   overflow:hidden;
+
+  }
+  #navigate >ul >li{
+   float:left;
+   background-color:white;
+   border-right: 2px solid magenta;
+  }
+  #navigate >ul>li>a{
+   display:block;
+   color:white;
+   text-align:center;
+   padding:15px 17px;
+   text-decoration:none;
+   background-color:black;
+  }
+  #navigate>ul>li>a:hover {
+
+  background-color: rgb(35, 109, 221);
+  color: rgb(255, 187, 82);
+  }
+  .active {
+     background-color:magenta;
+  }
+  
+  a{
+   background-color:magenta;
+   color:red;
+  }
