@@ -6,12 +6,12 @@
   color: yellow;
 }*/
 body{
-  color: indigo;
-  background-color: lightyellow;
+  color: maroon;
+  background-color: blanchedalmond;
   text-align: justify;
 }
 .container{
-
+  background-color: blanchedalmond;
 }
 h1{
   text-align: center;
@@ -24,4 +24,7 @@ h1{
 .bg-warning{
   border-radius: 6px 12px 8px 3px;
   color: indigo;
+}
+.form-group{
+text-align: center;
 }
