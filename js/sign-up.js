@@ -11,19 +11,20 @@ $(document).ready(function(event){
   $("form#invite").submit(function(event){
 
   event.preventDefault();
-  var userName = "admin";
-  var emailAddress = "winniemagoma@gmail.com"
-  var password = "1234";
-  var confirmPassword = "1234";
-  var inputed_userName = document.getElementById('user-name').value;
-  var inputed_emailAddress = document.getElementById('email-address').value;
-  var inputed_password= document.getElementById('your-password').value;
-  var inputed_confirmPassword = document.getElementById('mine-password').value;
+//  var userName = "admin";
+  //var emailAddress = "winniemagoma@gmail.com"
+//  var password = "1234";
+//  var confirmPassword = "1234";
+  var /*inputed_*/userName = document.getElementById('user-name').value;
+  var /*inputed_*/emailAddress = document.getElementById('email-address').value;
+  var /*inputed_*/password= document.getElementById('your-password').value;
+  var /*inputed_*/confirmPassword = document.getElementById('mine-password').value;
 
-  if((userName==inputed_userName) && (emailAddress==inputed_emailAddress) && (password==inputed_password) &&(confirmPassword==inputed_confirmPassword)) {
+  alert('Registeration successiful')
+/*  if((userName==inputed_userName) && (emailAddress==inputed_emailAddress) && (password==inputed_password) &&(confirmPassword==inputed_confirmPassword)) {
     alert('registration successiful');
-  } else if (emailAddress!=inputed_emailAddress) {
-    alert('please check your email-address')
+  //} else if (emailAddress!=inputed_emailAddress) {
+    //alert('please check your email-address')
  } else if (confirmPassword!=inputed_confirmPassword)
   alert('password confirmation incorrect')
   else{

@@ -23,6 +23,7 @@ function bread(){
         // $("#update_bread_stock").hide();
         $("#notice").show();
         update_bread_stock.innerHTML = "Enough stock";
+         $("#bread").css("background-color", "blue");
       }
 }
 
@@ -44,6 +45,7 @@ function unga(){
       }
       else {
         update_unga_stock.innerHTML = " Enough stock";
+         $("#unga").css("background-color", "blue");
         $("#notice").show();
       }
 }
@@ -64,6 +66,7 @@ function soda(){
       }
       else {
         update_soda_stock.innerHTML = "Enough stock";
+         $("#soda").css("background-color", "red");
         $("#notice").show();
       }
 }
