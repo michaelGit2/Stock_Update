@@ -4,3 +4,13 @@
 body{
   background-color:darkkhaki;
 }
+
+#images{
+  margin-left: 30px;
+  margin-right: auto;
+}
+.container{
+  align-content: center;
+  border: 2px solid blue;
+  
+}
